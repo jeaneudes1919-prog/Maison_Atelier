@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth}
+body{background:#F7F3EE;color:#1B1A17;font-family:"Inter Variable",sans-serif;-webkit-font-smoothing:antialiased}
+::selection{background:#C2603A;color:#fff}
+::-webkit-scrollbar{width:10px}::-webkit-scrollbar-thumb{background:#C9BBAA;border-radius:9px}
+:focus-visible{outline:2px solid #C2603A;outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
